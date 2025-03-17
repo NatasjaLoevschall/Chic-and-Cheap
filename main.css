@@ -12,7 +12,6 @@ header{
     position: sticky;
     top: 0;
     z-index: 10;
-    
 }
 header nav{
     display: flex;
@@ -34,7 +33,7 @@ header nav a:hover{
     text-decoration: underline;
     text-decoration-color:  rgb(149, 146, 145);
     text-decoration-thickness: 2px; /* Tykkelse på underline */
-    text-underline-offset: 13px; /* Juster afstanden */
+    text-underline-offset: 15px; /* Juster afstanden */
 }
 #hjerte{
     height: 15px;
