@@ -5,7 +5,73 @@ h1{
     text-align: center;
     font-weight: 500;
     font-family: 'Krub', sans-serif;
-    height: 100px;
+    height: 150px;
     padding-top: 50px;
+}
+
+.genbrug-section{
+    background-color: #f6f4f0;
+    margin-top: -1%;
    
+}
+
+.genbrug-section h1 {
+    text-decoration: none;
+    color: #655e5e;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Krub', sans-serif;
+    height: 150px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+}
+
+.genbrug-section p {
+    text-decoration: none;
+    color: #655e5e;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    height: 100px;
+    margin-top: -3%;
+
+}
+.outfits3 {
+    display: flex;
+    gap: 0;
+}
+
+.billeder-container img {
+    width: 33.33%;
+}
+
+.hvorfor
+{
+    background-color: #f6f4f0;
+    margin-top: -1%;
+}
+.hvorfor h1 {
+    text-decoration: none;
+    color: #655e5e;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Krub', sans-serif;
+    height: 150px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+}
+
+.hvorfor p {
+    text-decoration: none;
+    color: #655e5e;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    height: 150px;
+    margin-top: -3%;
+
 }
