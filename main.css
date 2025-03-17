@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+}
+body{
+    background-image: url('billeder/baggrund.jpg');
+}
+header{
+    background-color: #f6f4f0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 70px;
+    height: 55px;
+}
+header nav a{
+    text-decoration: none;
+    color: #655e5e;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding-top: 13px;
+}
+header nav a:hover{
+    color: rgb(149, 146, 145);
+    text-decoration: underline;
+    text-decoration-color:  rgb(149, 146, 145);
+    text-decoration-thickness: 2px; /* Tykkelse på underline */
+    text-underline-offset: 13px; /* Juster afstanden */
+}
+#hjerte{
+    height: 15px;
+    margin-top: 13px;
+}
+#hjerte:hover{
+    cursor: pointer;
+    transform: scale(1.2); /* Forstørrer billedet ved hover */
+    transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
+}
+#logo{
+    height: 110px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #f6f4f0;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer p{
+    font-size: 13px;
+    line-height: 2;
+    color: #655e5e;
+}
+footer a:hover{
+    color: rgb(149, 146, 145);
+    text-decoration: underline;
+    text-decoration-color:  rgb(149, 146, 145);
+    text-decoration-thickness: 2px; /* Tykkelse på underline */
+    text-underline-offset: 6px; /* Juster afstanden */
+}
+footer h4{
+    font-size: 15px;
+    color: #655e5e;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Justerer sektionerne til toppen */
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding: 20px;
+}
+#copyright{
+    text-align: center;
+}
+footer a{
+    color: #655e5e;
+    text-decoration: none;
+}
