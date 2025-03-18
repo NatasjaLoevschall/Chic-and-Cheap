@@ -1,5 +1,31 @@
-#hero {
+#share-your-styles{
     width: 100%;
-    background-image: url("billeder");
-    background-size: cover;
+    position: relative;
 }
+
+#share-your-styles img{
+    width: 100%;
+}
+
+#intro{
+    position: absolute; /* Placer sektionen ovenpå billedet */
+    top: 30%;
+    left: 50%;
+    text-align: right;
+    color: white;
+    font-family: 'Krub', sans-serif;
+    padding-right: 50px;
+}
+
+#intro h1{
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+#intro p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
