@@ -1,0 +1,26 @@
+.tilbage{
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.tilbage:hover{
+    cursor: pointer;
+    transform: scale(1.1); /* Forstørrer billedet ved hover */
+    transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
+}
+#introupcycle{
+    font-weight: 500;
+    color: #403a3af6;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#introupcycle h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+#introupcycle p{
+    font-size: 17px;
+    line-height: 1.5;
+}
