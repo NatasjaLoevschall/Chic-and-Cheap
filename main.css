@@ -91,3 +91,13 @@ footer a{
     color: #655e5e;
     text-decoration: none;
 }
+.tilbage{
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.tilbage:hover{
+    cursor: pointer;
+    transform: scale(1.1); /* Forstørrer billedet ved hover */
+    transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
+}
