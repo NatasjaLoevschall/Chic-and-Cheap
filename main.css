@@ -5,7 +5,10 @@
     font-family: 'Krub', sans-serif;
 }
 body{
-    background-image: url('billeder/baggrund.jpg');
+    background-image: url('billeder/baggrund.svg');
+    background-size: cover; /* Dækker hele baggrunden */
+    background-repeat: no-repeat; /* Forhindrer gentagelse af billedet */
+    background-position: center center; /* Centrerer billedet */
 }
 header{
     background-color: #f6f4f0;
