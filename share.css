@@ -26,59 +26,47 @@
     font-size: 18px;
     line-height: 30px;
 }
-
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Præcis 3 kolonner */
-    gap: 40px; /* Afstand mellem elementerne */
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    gap: 50px; /* Afstand mellem elementerne */
+    max-width: 1100px;
+    margin: auto; /* Centrerer grid-containeren */
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.grid{
+    height: 460px;
+    background-color: white;
+    position: relative;
+}
+.card {
+    height: 350px; /* Sæt højden til 500px */
 }
 
 .card img { /* Billedet skal fylde hele kortet */ /*men tjek lige om den skaæ være der når billederne er sat ind*/
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     display: block;
-    height: 400px;
-    width: 375px;
 }
-
-.card {
-    position: relative; /* Gør det muligt at placere billedet præcist */
-    background: white;
-    border: black;
-    margin-bottom: 40px;
-}
-
-.opslagstekst {
-    padding: 15px;
-    margin: auto;
-}
-
-.opslagstekst p {
+.opslagstekst{
+    display: flex;
     color: #333;
-    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
-.card .hjerte {
-    position: absolute;
-    top: 425px;
-    right: 15px;
+.grid .hjerte {
+    position: absolute; /* Placer hjertet ovenpå billedet */
+    margin-left: 270px;
     width: 27px; /* Sæt bredden til 25px */
-    height: 24px ;
+    height: 24px;
 }
-
 .hjerte:hover{
     cursor: pointer;
     transform: scale(1.2); /* Forstørrer billedet ved hover */
     transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
 }
 
-.card img {
-    width:100%; /* Fylder hele bredden af containeren */
-    height: 70%; /* Fylder hele højden af containeren */
-}
