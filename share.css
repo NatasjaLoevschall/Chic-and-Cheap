@@ -1,6 +1,6 @@
 #share-your-styles{
     width: 100%;
-    position: relative;
+
 }
 
 #share-your-styles img{
@@ -9,6 +9,7 @@
 
 #intro{
     position: absolute; /* Placer sektionen ovenpå billedet */
+    z-index: 2; /* Placer sektionen foran billedet */
     top: 30%;
     left: 50%;
     text-align: right;
@@ -69,4 +70,3 @@
     transform: scale(1.2); /* Forstørrer billedet ved hover */
     transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
 }
-
