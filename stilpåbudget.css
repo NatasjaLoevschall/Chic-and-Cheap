@@ -1,0 +1,108 @@
+.stil{
+    margin-top: 50px;
+}
+.stil h1 {
+    text-decoration: none;
+    color: #403a3add;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Krub', sans-serif;
+    height: 150px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+}
+
+.stil p {
+    text-decoration: none;
+    color: #403a3add;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    height: 150px;
+    margin-top: -3%;
+
+}
+
+
+.taske-section {
+    display: flex;
+    align-items: center;
+    background-color: #f6f4f0;
+    padding: 20px;
+}
+
+.taske-info {
+    width: 30%;
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #403a3add;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+}
+
+.besparelse {
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #000000dd;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+}
+
+.saving-amount {
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #403a3add;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    text-align: left;
+    font-size: 60px;
+}
+
+.taskebilleder {
+    display: flex;
+    gap: 0;
+    width: 65%;
+}
+
+.task-card {
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #403a3add;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    text-align: left;
+    border: 0.5px solid #000000;
+}
+
+.task-card img {
+    width: 100%;
+    height: auto;
+}
+
+.task-name {
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #403a3add;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+}
+
+.task-price {
+    background: #f6f4f0;
+    text-align: left;
+    text-decoration: none;
+    color: #403a3add;
+    font-weight: 300;
+    font-family: 'Krub', sans-serif;
+    text-align: left;
+}
