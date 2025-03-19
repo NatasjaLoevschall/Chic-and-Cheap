@@ -32,21 +32,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Præcis 3 kolonner */
     gap: 40px; /* Afstand mellem elementerne */
-    max-width: 1200px; /* Bevar en maksimal bredde */
-    margin: auto; /* Centrer grid-containeren */
+    max-width: 1200px;
+    margin: auto;
     margin-top: 40px;
-}
-
-.card {
-    position: relative; /* Gør det muligt at placere billedet præcist */
-    background: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .card img { /* Billedet skal fylde hele kortet */ /*men tjek lige om den skaæ være der når billederne er sat ind*/
     width: 100%;
     height: auto;
+    object-fit: cover;
     display: block;
+    height: 400px;
+    width: 375px;
+}
+
+.card {
+    position: relative; /* Gør det muligt at placere billedet præcist */
+    background: white;
+    border: black;
+    margin-bottom: 40px;
 }
 
 .opslagstekst {
@@ -61,13 +66,19 @@
 
 .card .hjerte {
     position: absolute;
-    top: 385px;
+    top: 425px;
     right: 15px;
-    width: 25px; /* Sæt bredden til 25px */
+    width: 27px; /* Sæt bredden til 25px */
+    height: 24px ;
 }
 
 .hjerte:hover{
     cursor: pointer;
     transform: scale(1.2); /* Forstørrer billedet ved hover */
     transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
+}
+
+.card img {
+    width:100%; /* Fylder hele bredden af containeren */
+    height: 70%; /* Fylder hele højden af containeren */
 }
