@@ -45,9 +45,6 @@
     opacity: 0.9; /* Gør billedet mindre gennemsigtigt */  
 }
 .udforsk{
-    position: absolute;
-    top: 1003px;
-    left: 120px;
     color:#f4f4f4;
     line-height: 1.5;
 }
