@@ -24,7 +24,7 @@
 }
 
 #intro p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 }
 .grid-container {
@@ -41,9 +41,13 @@
     height: 460px;
     background-color: white;
     position: relative;
+    border: 1px solid black; /* Tilføj en sort ramme */
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.1); /* Tilføj en skygge */
 }
+
 .card {
-    height: 350px; /* Sæt højden til 500px */
+    height: 350px; 
+    border-bottom: 1px solid black; /* Tilføj en sort bundlinje */
 }
 
 .card img { /* Billedet skal fylde hele kortet */ /*men tjek lige om den skaæ være der når billederne er sat ind*/

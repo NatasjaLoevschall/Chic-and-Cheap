@@ -39,17 +39,16 @@ gap: 80px;
 .section {
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap: 20px;
 align-items: center;
 background: white;
 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-height: 500px; /* Sæt en maksimal højde, hvis nødvendigt */
+height: 500px;
 }
 
 /* Skift rækkefølge af tekst og billede i hver anden sektion */
 .section:nth-child(even) {
 grid-template-columns: 1fr 1fr;
-background: #928a83;
+background: #aea7a0;
 }
 
 .section:nth-child(even) .text h2,
@@ -58,11 +57,11 @@ background: #928a83;
 }
 
 .text{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .text h2 {
-font-size: 22px;
+font-size: 27px;
 color: #403a3add;
 margin-bottom: 10px;
 line-height: 50px;
@@ -79,8 +78,8 @@ line-height: 30px;
     height: 100%;
 }
 
-.image .img {
-    width: 50px;
-    height: 100%;
+.image img {
+    width: 100%; /* Billedet fylder hele containerens bredde */
+    height: 100%; /* Billedet fylder hele containerens højde */
+    object-fit: cover; /* Beskærer billedet for at passe til containeren uden forvrængning */
 }
-
