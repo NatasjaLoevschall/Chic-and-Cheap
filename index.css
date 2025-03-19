@@ -1,10 +1,13 @@
 #tekstforside{
     position: absolute;
     top: 200px;
+    z-index: 10;
     text-align: center;
     color: #403a3af6;
     margin-left: 340px;
     margin-right: 340px;
+    position: absolute;
+
 }
 #tekstforside h1{
     font-size: 53px;
@@ -18,12 +21,13 @@
 #forsidebillede{
     margin-top: -60px;
     width: 100%;
+    position: relative;
 }
 #læsmere{
     background-color: #403a3add;
     color: white;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
@@ -31,6 +35,10 @@
     align-items: center; /* Centrerer indholdet lodret */
     justify-content: center; /* Centrerer indholdet vandret */
     text-decoration: none;
+    position: absolute;
+    top: 460px;
+    left: 545px;
+    z-index: 10;
 }
 #læsmere img{
     height: 20px;
