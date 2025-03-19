@@ -19,7 +19,7 @@
 }
 .fotoalbum{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Gør layout responsivt */
+    grid-template-columns: 1fr 1fr; 
     gap: 60px; /* Afstand mellem billeder */
     margin: 50px auto; /* Centrerer hele grid-containeren */
     max-width: 1100px; /* Begrænser bredden */
@@ -28,24 +28,24 @@
 .foto {
     overflow: hidden; /* Sørger for at skjule overskydende billeddele */
     border-radius: 3px; /* Giver afrundede hjørner for et pænere look */
-}
-.foto img{
-    width: 100%;
     height: 500px; /* Justér højden efter behov */
+    position: relative;
+    z-index: 1;
+}
+#billede img{
+    width: 100%;
     object-fit: cover; /* Beskærer billedet, så det fylder området */
     box-shadow: 5px 5px 20px rgba(94, 94, 94, 0.3); /* Blød skygge */
 
 }
-#udforsk1{
-    position: absolute;
-    top: 700px;
-    left: 100px;
-    z-index: 8;
+#udforsk1{  
     color:#f4f4f4;
-    line-height: 1.5;
-}
-#udforsk1 h2{
-    margin-bottom: 10px;
+    line-height: 1.4;
+    position: absolute;
+    z-index: 10;
+    top: 370px; /* Juster placeringen efter behov */
+    left: 25px; /* Juster placeringen efter behov */
+    text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.5); /* Tilføjer skygge til teksten */
 }
 #udforskknap{
     font-size: 20px;
@@ -58,117 +58,17 @@
     justify-content: center; /* Centrerer indholdet vandret */
     padding: 10px;
     position: absolute;
-    top: 760px;
-    left: 100px;
-    z-index: 8;
+    z-index: 10;
+    top: 430px; /* Juster placeringen efter behov */
+    left: 25px; /* Juster placeringen efter behov */
+
+ 
 }
 #udforskknap img{
     height: 17px;
     margin-left: 4px;
 }
 #udforskknap:hover{
-    background-color: #e3e3e3;
-    cursor: pointer;
-}
-#udforsk2{
-    position: absolute;
-    top: 700px;
-    left: 680px;
-    z-index: 8;
-    color:#f4f4f4;
-    line-height: 1.5;
-}
-#udforsk2 h2{
-    margin-bottom: 10px;
-}
-#udforskknap2{
-    font-size: 20px;
-    text-decoration: none;
-    color: #403a3adc;
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex; /* Tilføjer flexbox for at arrangere indholdet på linje */
-    align-items: center; /* Centrerer indholdet lodret */
-    justify-content: center; /* Centrerer indholdet vandret */
-    padding: 10px;
-    position: absolute;
-    top: 760px;
-    left: 680px;
-    z-index: 8;
-}
-#udforskknap2 img{
-    height: 17px;
-    margin-left: 4px;
-}
-#udforskknap2:hover{
-    background-color: #e3e3e3;
-    cursor: pointer;
-}
-#udforsk3{
-    position: absolute;
-    top: 1260px;
-    left: 100px;
-    z-index: 8;
-    color:#f4f4f4;
-    line-height: 1.5;
-}
-#udforsk3 h2{
-    margin-bottom: 10px;
-}
-#udforskknap3{
-    font-size: 20px;
-    text-decoration: none;
-    color: #403a3adc;
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex; /* Tilføjer flexbox for at arrangere indholdet på linje */
-    align-items: center; /* Centrerer indholdet lodret */
-    justify-content: center; /* Centrerer indholdet vandret */
-    padding: 10px;
-    position: absolute;
-    top: 1320px;
-    left: 100px;
-    z-index: 8;
-}
-#udforskknap3 img{
-    height: 17px;
-    margin-left: 4px;
-}
-#udforskknap3:hover{
-    background-color: #e3e3e3;
-    cursor: pointer;
-}
-#udforsk4{
-    position: absolute;
-    top: 1260px;
-    left: 680px;
-    z-index: 8;
-    color:#f4f4f4;
-    line-height: 1.5;
-}
-#udforsk4 h2{
-    margin-bottom: 10px;
-}
-#udforskknap4{
-    font-size: 20px;
-    text-decoration: none;
-    color: #403a3adc;
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex; /* Tilføjer flexbox for at arrangere indholdet på linje */
-    align-items: center; /* Centrerer indholdet lodret */
-    justify-content: center; /* Centrerer indholdet vandret */
-    padding: 10px;
-    position: absolute;
-    top: 1320px;
-    left: 680px;
-    z-index: 8;
-}
-#udforskknap4 img{
-    height: 17px;
-    margin-left: 4px;
-}
-#udforskknap4:hover{
     background-color: #e3e3e3;
     cursor: pointer;
 }
