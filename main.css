@@ -102,33 +102,3 @@ footer a{
     transform: scale(1.1); /* Forstørrer billedet ved hover */
     transition: transform 0.2s ease; /* Tilføjer en glidende overgang */
 }
-.udforsk{
-    position: absolute;
-    top: 1003px;
-    left: 120px;
-    z-index: 8;
-    color:#f4f4f4;
-    line-height: 1.5;
-}
-.udforsk h2{
-    margin-bottom: 10px;
-}
-.udforsk a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #403a3adc;
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex; /* Tilføjer flexbox for at arrangere indholdet på linje */
-    align-items: center; /* Centrerer indholdet lodret */
-    justify-content: center; /* Centrerer indholdet vandret */
-    padding: 10px;
-}
-.udforsk img{
-    height: 17px;
-    margin-left: 4px;
-}
-.udforsk a:hover{
-    background-color: #e3e3e3;
-    cursor: pointer;
-}
