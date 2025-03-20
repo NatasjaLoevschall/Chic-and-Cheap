@@ -41,17 +41,6 @@ h1{
     line-height: 30px;
 
 }
-.outfits3 {
-    display: flex;
-    gap: 0;
-    height: 340px;
-    width: 100%;
-}
-
-.outfit3 img {
-    width: 33%; /* Sørger for, at de tre billeder fylder lige meget */
-    height: 100%;
-}
 
 .hvorfor{
     background-color: #ffffff;
@@ -160,6 +149,22 @@ body {
   }
 
   #fotos{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0;
     height: 340px;
-  }
+    width: 100%;
+}
+
+#outfits1, #outfits2 {
+    width: 100%;
+    height: 340px;
+    overflow: hidden; /* Skjuler eventuelle uønskede dele af billedet */
+}
+
+#outfits1 img, #outfits2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Beskærer billedet, så det fylder hele containeren */
+    display: block; /* Fjerner ekstra afstand under billedet */
+}
