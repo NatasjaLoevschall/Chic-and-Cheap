@@ -24,11 +24,11 @@
     margin: 50px auto; /* Centrerer hele grid-containeren */
     max-width: 1100px; /* Begrænser bredden */
     width: 100%;
+    height: 600px;
 }
 .foto {
     overflow: hidden; /* Sørger for at skjule overskydende billeddele */
     border-radius: 3px; /* Giver afrundede hjørner for et pænere look */
-    height: 500px; /* Justér højden efter behov */
     position: relative;
     z-index: 1;
 }
@@ -43,7 +43,7 @@
     line-height: 1.4;
     position: absolute;
     z-index: 10;
-    top: 370px; /* Juster placeringen efter behov */
+    top: 457px; /* Juster placeringen efter behov */
     left: 25px; /* Juster placeringen efter behov */
     text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.5); /* Tilføjer skygge til teksten */
 }
@@ -59,7 +59,7 @@
     padding: 10px;
     position: absolute;
     z-index: 10;
-    top: 430px; /* Juster placeringen efter behov */
+    top: 520px; /* Juster placeringen efter behov */
     left: 25px; /* Juster placeringen efter behov */
 
  

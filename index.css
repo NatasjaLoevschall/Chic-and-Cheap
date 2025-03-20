@@ -1,12 +1,11 @@
 #tekstforside{
     position: absolute;
-    top: 200px;
+    top: 45%; /* Placerer elementet 50% ned fra toppen */
+    left: 50%; /* Placerer elementet 50% ind fra venstre */
+    transform: translate(-50%, -50%); /* Justerer for at centrere elementet */
     z-index: 10;
     text-align: center;
     color: #403a3af6;
-    margin-left: 340px;
-    margin-right: 340px;
-    position: absolute;
 
 }
 #tekstforside h1{
@@ -21,6 +20,8 @@
 #forsidebillede{
     margin-top: -60px;
     width: 100%;
+}
+#forside{
     position: relative;
 }
 #læsmere{
@@ -36,8 +37,9 @@
     justify-content: center; /* Centrerer indholdet vandret */
     text-decoration: none;
     position: absolute;
-    top: 460px;
-    left: 545px;
+    top: 68%; /* Placerer elementet 50% ned fra toppen */
+    left: 50%; /* Placerer elementet 50% ind fra venstre */
+    transform: translate(-50%, -50%); /* Justerer for at centrere elementet */
     z-index: 10;
 }
 #læsmere img{
