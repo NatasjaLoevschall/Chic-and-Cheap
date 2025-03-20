@@ -61,8 +61,6 @@
     background-color: #fff;
     border-radius: 3px;
     display: flex; /* Tilføjer flexbox for at arrangere indholdet på linje */
-    align-items: center; /* Centrerer indholdet lodret */
-    justify-content: center; /* Centrerer indholdet vandret */
     padding: 10px;
     position: absolute;
     z-index: 10;
@@ -73,8 +71,10 @@
 
 #udforskknap img{
    height: 17px;
-   margin-left: 95px;
+   margin-left: 80px;
    width: 35px;
+   margin-top: 4px;
+   align-items: center;
 }
 
 #udforskknap:hover{
