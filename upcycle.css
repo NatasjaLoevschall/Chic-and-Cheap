@@ -31,6 +31,7 @@
     border-radius: 3px; /* Giver afrundede hjørner for et pænere look */
     position: relative;
     z-index: 1;
+    height: 600px;
 }
 #billede img{
     width: 100%;
