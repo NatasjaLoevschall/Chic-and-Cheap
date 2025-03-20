@@ -50,8 +50,7 @@ h1{
 
 .outfit3 img {
     width: 33%; /* Sørger for, at de tre billeder fylder lige meget */
-    display: block;
-    height: auto;
+    height: 100%;
 }
 
 .hvorfor{
@@ -69,7 +68,6 @@ h1{
     font-size: 30px;
     text-align: left;
     font-weight: 500;
-    
 }
 
 .hvorfor p {
@@ -127,6 +125,7 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    display: block;
 }
 
 .butik-info {
@@ -158,4 +157,9 @@ body {
   }
   .shop img:hover {
     transform: scale(1.02);
+  }
+
+  #fotos{
+    align-items: center;
+    height: 340px;
   }
