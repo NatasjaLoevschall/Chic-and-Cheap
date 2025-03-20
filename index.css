@@ -58,9 +58,8 @@
     color:#f4f4f4;
     line-height: 1.5;
     position: absolute;
-    top: 180%; /* Placerer elementet 50% ned fra toppen */
-    left: 18%; /* Placerer elementet 50% ind fra venstre */
-    transform: translate(-50%, -50%); /* Justerer for at centrere elementet */
+    top: 177%; /* Placerer elementet 50% ned fra toppen */
+    left: 10%; /* Placerer elementet 50% ind fra venstre */
     z-index: 8; 
 }
 .udforsk h2{
