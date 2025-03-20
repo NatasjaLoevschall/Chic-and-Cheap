@@ -1,28 +1,21 @@
 .stil{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .stil h1 {
-    text-decoration: none;
     color: #403a3af6;
-    font-size: 40px;
     text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
     font-weight: 500;
-    font-family: 'Krub', sans-serif;
-    height: 150px;
-    padding-top: 50px;
-    margin-bottom: 0%;
+    padding-top: 80px;
 }
 
 .stil p {
-    text-decoration: none;
     color: #403a3add;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    font-weight: 300;
-    font-family: 'Krub', sans-serif;
-    height: 150px;
-    margin-top: -3%;
-
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 
@@ -30,7 +23,7 @@
     display: flex;
     align-items: center;
     padding: 40px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .taske-info {
@@ -40,7 +33,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     justify-content: center;
     height: 472px;
     padding-left: 30px;
@@ -55,7 +47,6 @@
     text-decoration: none;
     color: #000000dd;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     margin-bottom: 10px;
 
 }
@@ -66,7 +57,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     text-align: left;
     font-size: 60px;
 }
@@ -86,7 +76,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     border: 0.5px solid #000000;
     padding-bottom: 15px;
     width: 100%;
@@ -110,7 +99,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
 }
 
 .taske-price {
@@ -119,7 +107,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     text-align: left;
 }
 .taske-section2 {
@@ -137,7 +124,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     justify-content: center;
     margin-left: -34px;
     padding: 120px;
@@ -152,7 +138,6 @@
     text-decoration: none;
     color: #000000dd;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     justify-content: center;
 }
 
@@ -162,7 +147,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     font-size: 60px;
 }
 
@@ -177,7 +161,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     border: 0.5px solid #000000;
     padding-bottom: 15px;
 }
@@ -200,7 +183,6 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
 }
 
 .taske-price2 {
@@ -209,6 +191,5 @@
     text-decoration: none;
     color: #403a3add;
     font-weight: 300;
-    font-family: 'Krub', sans-serif;
     text-align: left;
 }

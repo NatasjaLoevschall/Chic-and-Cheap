@@ -33,7 +33,7 @@
     overflow: hidden; /* Sørger for at skjule overskydende billeddele */
     border-radius: 3px; /* Giver afrundede hjørner for et pænere look */
     position: relative;
-    height: 100%px;
+    height: 100%;
     box-shadow: 5px 5px 20px rgba(94, 94, 94, 0.3); /* Blød skygge */
 }
 
