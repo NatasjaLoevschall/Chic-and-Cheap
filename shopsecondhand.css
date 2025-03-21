@@ -77,31 +77,21 @@ body {
 .hvor {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-left: auto; /* Skubber indholdet mod højre */
+    height: 400px;
+
     max-width: 1200px;
-    margin-right: 95px;
 }
-
-.hvoroverskrift {
-    flex: 1;
-    padding-right: 50px;
-}
-
 .hvoroverskrift h1 {
-    text-decoration: none;
     color: #403a3add;
-    font-size: 60px;
+    font-size: 45px;
     text-align: left;
     font-weight: 500;
-    height: 400px;
-    padding-top: 50px;
-    margin-bottom: 0%;
-    margin-left: -50px;
+    padding: 40px;
 }
 
 .butikker {
   height: 300px;
-  margin-top: 45px;
+  margin-top: 48px;
 }
 
 .hvor img {
