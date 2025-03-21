@@ -79,6 +79,7 @@ body {
     grid-template-columns: repeat(4,1fr);
     height: 400px;
     max-width: 1200px;
+    margin-bottom: 60px;
 }
 .hvoroverskrift h1 {
     color: #403a3add;
