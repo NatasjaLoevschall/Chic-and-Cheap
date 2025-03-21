@@ -50,18 +50,19 @@
     background-color: #403a3a;
     cursor: pointer;
 }
-#forsidebillede2{
+#sectionto{
+    position: relative;
+}
+ #forsidebillede2{
     margin-top: -5px;
     opacity: 0.95; /* Gør billedet mindre gennemsigtigt */ 
-    position: relative; 
 }
 .udforsk{
     color:#f4f4f4;
     line-height: 1.5;
     position: absolute;
-    top: 177%; /* Placerer elementet 50% ned fra toppen */
-    left: 10%; /* Placerer elementet 50% ind fra venstre */
-    z-index: 8; 
+    top: 320px;
+    left: 120px
 }
 .udforsk h2{
     margin-bottom: 10px;
